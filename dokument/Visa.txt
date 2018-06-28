@@ -1,0 +1,64 @@
+<select name="klass" onchange="this.form.avgift.value=this.options[this.selectedIndex].avgift">
+        <option selected avgift="">-- välj här --</option>
+        <option value="0"  avgift="">** Marknadsloppet 12,6 km **</option>
+        <option value="0" avgift="">-- Män --</option>
+        <option value="M" avgift="100"<?=($klass=="M")?' selected="selected"':''?>>M</option>
+        <option value="M-22" avgift="100"<?=($klass=="M-22")?' selected="selected"':''?>>M-22</option>
+        <option value="M35" avgift="100"<?=($klass=="M35")?' selected="selected"':''?>>M35</option>
+        <option value="M40" avgift="100"<?=($klass=="M40")?' selected="selected"':''?>>M40</option>
+        <option value="M45" avgift="100"<?=($klass=="M45")?' selected="selected"':''?>>M45</option>
+        <option value="M50" avgift="100"<?=($klass=="M50")?' selected="selected"':''?>>M50</option>
+        <option value="M55" avgift="100"<?=($klass=="M55")?' selected="selected"':''?>>M55</option>
+        <option value="M60" avgift="100"<?=($klass=="M60")?' selected="selected"':''?>>M60</option>
+        <option value="M65" avgift="100"<?=($klass=="M65")?' selected="selected"':''?>>M65</option>
+        <option value="M70" avgift="100"<?=($klass=="M70")?' selected="selected"':''?>>M70</option>
+        <option value="M75" avgift="100"<?=($klass=="M75")?' selected="selected"':''?>>M75</option>
+        <option value="M80+" avgift="100"<?=($klass=="M80+")?' selected="selected"':''?>>M80+</option>
+        <option value="0" avgift=""></option>
+        <option value="0" avgift="">-- Kvinnor --</option>
+        <option value="K" avgift="100"<?=($klass=="K")?' selected="selected"':''?>>K</option>
+        <option value="K-22" avgift="100"<?=($klass=="K-22")?' selected="selected"':''?>>K-22</option>
+        <option value="K35" avgift="100"<?=($klass=="K35")?' selected="selected"':''?>>K35</option>
+        <option value="K40" avgift="100"<?=($klass=="K35")?' selected="selected"':''?>>K40</option>
+        <option value="K45" avgift="100"<?=($klass=="K45")?' selected="selected"':''?>>K45</option>
+        <option value="K50" avgift="100"<?=($klass=="K50")?' selected="selected"':''?>>K50</option>
+        <option value="K55" avgift="100"<?=($klass=="K55")?' selected="selected"':''?>>K55</option>
+        <option value="K65" avgift="100"<?=($klass=="K65")?' selected="selected"':''?>>K65</option>
+        <option value="K70+" avgift="100"<?=($klass=="K70")?' selected="selected"':''?>>K70+</option>
+        <option value="0" avgift=""></option>
+        <option value="0" avgift="">-- Motionsklasser --</option>
+        <option value="MM" avgift="100"<?=($klass=="MM")?' selected="selected"':''?>>MM (Motion män)</option>
+        <option value="MK" avgift="100"<?=($klass=="MK")?' selected="selected"':''?>>MK (Motion kvinnor)</option>
+        <option value="0" avgift="">___________________</option>
+        <option value="0" avgift=""></option>
+        <option value="0" avgift="">** Lilla Marknadsloppet 6,1 km **</option>
+        <option value="0" avgift="">-- Pojkar --</option>
+        <option value="P14" avgift="70"<?=($klass=="P14")?' selected="selected"':''?>>P14 (f90-)</option>
+        <option value="P16" avgift="70"<?=($klass=="P16")?' selected="selected"':''?>>P16 (f88-)</option>
+        <option value="P18" avgift="70"<?=($klass=="P18")?' selected="selected"':''?>>P18 (f86-)</option>
+        <option value="0" avgift=""></option>
+        <option value="0" avgift="">-- Flickor --</option>
+        <option value="F14" avgift="70"<?=($klass=="F14")?' selected="selected"':''?>>F14 (f90-)</option>
+        <option value="F16" avgift="70"<?=($klass=="F16")?' selected="selected"':''?>>F16 (f88-)</option>
+        <option value="F18" avgift="70"<?=($klass=="F18")?' selected="selected"':''?>>F18 (f86-)</option>
+        <option value="0" avgift=""></option>
+        <option value="0" avgift="">-- Motionsklasser --</option>
+        <option value="MMK" avgift="70"<?=($klass=="MMK")?' selected="selected"':''?>>MMK (Motion män kort)</option>
+        <option value="MKK" avgift="70"<?=($klass=="MKK")?' selected="selected"':''?>>MKK (Motion kvinnor kort)</option>
+        <option value="0" avgift="">_________________________</option>
+        <option value="0" avgift=""></option>
+        <option value="0" avgift="">** Can-Can Loppet 3,4 km **</option>
+        <option value="0" avgift=""></option>
+        <option value="0" avgift="">-- Pojkar --</option>
+        <option value="P8" avgift="50"<?=($klass=="P8")?' selected="selected"':''?>>P8 (f96-)</option>
+        <option value="P10" avgift="50"<?=($klass=="P10")?' selected="selected"':''?>>P10 (f94-)</option>
+        <option value="P12" avgift="50"<?=($klass=="P12")?' selected="selected"':''?>>P12 (f92-)</option>
+        <option value="0" avgift=""></option>
+        <option value="0" avgift="">-- Flickor --</option>
+        <option value="F8" avgift="50"<?=($klass=="F8")?' selected="selected"':''?>>F8 (f96-)</option>
+        <option value="F10" avgift="50"<?=($klass=="F10")?' selected="selected"':''?>>F10 (f94-)</option>
+        <option value="F12" avgift="50"<?=($klass=="F12")?' selected="selected"':''?>>F12 (f92-)</option>
+        <option value="0" avgift="50"></option>
+        <option value="0" avgift="">-- Gå lunka löp --</option>
+        <option value="GLL" avgift="50"<?=($klass=="GLL")?' selected="selected"':''?>>GLL</option>
+        </select>

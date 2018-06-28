@@ -1,0 +1,68 @@
+<html>
+<head>
+<title>Marknadsloppet</title>
+</head>
+
+<SCRIPT LANGUAGE="javascript">
+
+//***--- Ange texterna som ska dyka upp nedan:
+varning="Tyvärr, du får inte använda denna meny på denna sida."
+
+function nomenu() 
+{ 
+event.cancelBubble = true 
+event.returnValue = false; 
+
+return false; 
+} 
+
+function clickdown(e)
+{
+ if (document.all)
+ {
+   if (event.button==2)
+   {
+   alert(varning);
+   }
+ }
+ if (document.layers)
+ {
+  if (e.which == 3)
+  {
+   alert(varning);
+   return false;
+  }
+ }
+}
+
+document.oncontextmenu=nomenu; 
+document.onmousedown=clickdown;
+//-->
+</SCRIPT>
+
+<body bgcolor="#E2C8FB">
+
+<table border="0" cellpadding="0" cellspacing="50" style="border-collapse: collapse" bordercolor="#111111" width="50%" valign="center" ALIGN="CENTER">
+  
+  <tr>
+    <td width="100%" align="left">
+    <font face="Verdana" size="4">Sponsorer</font>
+    </td>
+  </tr>
+  
+  <tr>
+  <td align="center">
+  <img src="/bilder/sponsorer_2007.jpg" alt="Sponsorer" galleryimg="no">
+  </td>
+  </tr> 
+
+  <tr>
+  <td align="center">
+  <img src="/bilder/bildekal_2007.jpg" alt="Sponsorer" galleryimg="no">
+  </td>
+  </tr> 
+
+</table>
+
+</body>
+</html>
